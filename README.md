@@ -60,23 +60,31 @@ summarises it in plain English, and automatically triggers a remediation action.
 ---
 
 ## How to Reproduce the Demo
-(bash)
-# 1. Start Wazuh
-sudo systemctl start wazuh-manager wazuh-indexer wazuh-dashboard
 
-# 2. Start Docker
+**1. Start Wazuh**
+```bash
+sudo systemctl start wazuh-manager wazuh-indexer wazuh-dashboard
+```
+
+**2. Start Docker**
+```bash
 sudo dockerd > /dev/null 2>&1 & sleep 5
 sudo docker start ruth-linux-agent
+```
 
-# 3. Start Ollama on all interfaces
+**3. Start Ollama**
+```bash
 sudo systemctl stop ollama && sleep 2
 OLLAMA_HOST=0.0.0.0:11434 ollama serve > /dev/null 2>&1 & sleep 5
+```
 
-# 4. Start AI stack
+**4. Start AI Stack**
+```bash
 cd ~/ai-security-stack && sudo docker compose up -d
+```
 
-# 5. Run breach simulations
-
+**5. Run Breach Simulations**
+```bash
 # Breach Sim 1 — T1548.003 — Privilege Escalation (Ubuntu terminal)
 sudo cat /etc/shadow
 
@@ -86,7 +94,7 @@ sudo cat /etc/passwd
 # Breach Sim 3 — T1136.001 — New Backdoor Account (Windows PowerShell as Admin)
 net user hacker Password123! /add
 net localgroup administrators hacker /add
-net user hacker /delete     # cleanup immediately after
+net user hacker /delete
 
 # Breach Sim 4 — T1574.001 — DLL Hijacking (already captured by Sysmon)
 # Search in Wazuh Threat Hunting: rule.id: 92219 OR rule.id: 100004
@@ -96,12 +104,17 @@ whoami /all
 net user
 net localgroup administrators
 ipconfig /all
+```
 
-# 6. Watch AI respond live (Ubuntu terminal)
+**6. Watch AI Respond Live**
+```bash
 sudo docker logs -f alert-processor
+```
 
-# 7. Check audit trail
+**7. Check Audit Trail**
+```bash
 cat ~/ai-security-stack/audit-log/actions.log | tail -20
+```
 
 ---
 
@@ -114,7 +127,7 @@ cat ~/ai-security-stack/audit-log/actions.log | tail -20
 
 > All actions are **SIMULATED** and require human approval before live execution.  
 > Every action is logged with UTC timestamp in `actions.log`.
-(bash)
+```bash
 # Verify remediation is working
 cat ~/ai-security-stack/audit-log/actions.log | grep "REMEDIATION" | tail -10
 
@@ -122,3 +135,4 @@ cat ~/ai-security-stack/audit-log/actions.log | grep "REMEDIATION" | tail -10
 # Threat Hunting search: rule.id: 100012   ← remediation executed
 # Threat Hunting search: rule.id: 100013   ← verification passed
 # Threat Hunting search: rule.id: 100014   ← full pipeline complete
+```
