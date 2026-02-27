@@ -1,0 +1,120 @@
+<!-- Local rules — Larkspur Retail Group Endpoint Security -->
+<!-- CA1 Custom Detection Rules — 5 Breach Simulations -->
+
+<!-- ============================================================ -->
+<!-- RULE 100001 — T1548.003 — Privilege Escalation via Sudo      -->
+<!-- Simulation: sudo cat /etc/shadow                             -->
+<!-- ============================================================ -->
+<group name="larkspur,privilege_escalation,linux,">
+  <rule id="100001" level="10">
+    <if_sid>5402</if_sid>
+    <description>LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint</description>
+    <mitre>
+      <id>T1548.003</id>
+    </mitre>
+    <group>privilege_escalation,pci_dss_10.2.5,gdpr_IV_35.7.d,</group>
+  </rule>
+</group>
+
+<!-- ============================================================ -->
+<!-- RULE 100002 — T1003.008 — Credential Access via /etc/shadow  -->
+<!-- Simulation: sudo cat /etc/shadow                             -->
+<!-- ============================================================ -->
+<group name="larkspur,credential_access,linux,">
+  <rule id="100002" level="12">
+    <if_sid>5402</if_sid>
+    <match>/etc/shadow</match>
+    <description>LARKSPUR BREACH SIM 2 — T1003.008: Credential access attempt — /etc/shadow read via sudo</description>
+    <mitre>
+      <id>T1003.008</id>
+    </mitre>
+    <group>credential_access,pci_dss_10.2.5,</group>
+  </rule>
+</group>
+
+<!-- ============================================================ -->
+<!-- RULE 100003 — T1136.001 — New Local Admin Account Created    -->
+<!-- Simulation: net user hacker Password123! /add               -->
+<!-- ============================================================ -->
+<group name="larkspur,persistence,windows,">
+  <rule id="100003" level="12">
+    <if_sid>18104,18105</if_sid>
+    <description>LARKSPUR BREACH SIM 3 — T1136.001: Persistence via new local account creation on Windows endpoint</description>
+    <mitre>
+      <id>T1136.001</id>
+    </mitre>
+    <group>account_management,pci_dss_8.2,</group>
+  </rule>
+</group>
+
+<!-- ============================================================ -->
+<!-- RULE 100004 — T1574.001 — DLL Search Order Hijacking         -->
+<!-- Simulation: existing Sysmon Rule 92219 parent               -->
+<!-- ============================================================ -->
+<group name="larkspur,defense_evasion,windows,">
+  <rule id="100004" level="10">
+    <if_sid>92219</if_sid>
+    <description>LARKSPUR BREACH SIM 4 — T1574.001: Defense evasion via DLL Search Order Hijacking detected by Sysmon</description>
+    <mitre>
+      <id>T1574.001</id>
+    </mitre>
+    <group>defense_evasion,pci_dss_11.4,</group>
+  </rule>
+</group>
+
+<!-- ============================================================ -->
+<!-- RULE 100005 — T1059.001 — PowerShell Reconnaissance          -->
+<!-- Simulation: whoami /all, net user, ipconfig                 -->
+<!-- ============================================================ -->
+<group name="larkspur,execution,discovery,windows,">
+  <rule id="100005" level="8">
+    <if_sid>91802,91803,91804</if_sid>
+    <description>LARKSPUR BREACH SIM 5 — T1059.001: Suspicious PowerShell reconnaissance commands detected on Windows endpoint</description>
+    <mitre>
+      <id>T1059.001</id>
+    </mitre>
+    <group>execution,discovery,pci_dss_11.4,</group>
+  </rule>
+</group>
+
+<!-- ============================================================ -->
+<!-- AI Security Stack Rules — Visible in Wazuh Dashboard        -->
+<!-- ============================================================ -->
+<group name="larkspur,ai_stack,">
+
+  <rule id="100010" level="5">
+    <program_name>ai-security-stack</program_name>
+    <match>AI-ALERT-RECEIVED</match>
+    <description>LARKSPUR AI STACK — Alert received and queued for Ollama analysis</description>
+    <group>ai_triage,</group>
+  </rule>
+
+  <rule id="100011" level="7">
+    <program_name>ai-security-stack</program_name>
+    <match>AI-ANALYSIS-COMPLETE</match>
+    <description>LARKSPUR AI STACK — Ollama AI analysis complete with recommended action</description>
+    <group>ai_analysis,</group>
+  </rule>
+
+  <rule id="100012" level="10">
+    <program_name>ai-security-stack</program_name>
+    <match>AI-REMEDIATION-EXECUTED</match>
+    <description>LARKSPUR AI STACK — Remediation action executed by automated playbook</description>
+    <group>ai_remediation,</group>
+  </rule>
+
+  <rule id="100013" level="5">
+    <program_name>ai-security-stack</program_name>
+    <match>AI-REMEDIATION-VERIFIED</match>
+    <description>LARKSPUR AI STACK — Remediation verification passed</description>
+    <group>ai_verification,</group>
+  </rule>
+
+  <rule id="100014" level="3">
+    <program_name>ai-security-stack</program_name>
+    <match>AI-FLOW-COMPLETE</match>
+    <description>LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action</description>
+    <group>ai_complete,</group>
+  </rule>
+
+</group>

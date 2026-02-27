@@ -1,0 +1,922 @@
+Feb 26 14:01:12 ai-security-stack: AI-STACK-STARTED: Larkspur AI security stack online. Monitoring Wazuh alerts.
+Feb 26 14:01:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:01:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:01:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=alert_only
+Feb 26 14:01:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=ruth-linux-agent MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:01:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:01:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=100001 FinalAction=alert_only
+Feb 26 14:01:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:01:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:01:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 14:01:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:01:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:01:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=alert_only
+Feb 26 14:01:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:01:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:01:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:01:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=alert_only
+Feb 26 14:02:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:02:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:02:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 14:02:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:02:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:02:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 14:02:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:02:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:02:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=alert_only
+Feb 26 14:02:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:02:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:02:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=alert_only
+Feb 26 14:02:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:02:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:02:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:02:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=alert_only
+Feb 26 14:03:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:03:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:03:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:03:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:03:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:03:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:03:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:03:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:03:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:03:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:03:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:03:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:03:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:03:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:03:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:03:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:04:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:04:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:04:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 14:04:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:04:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:04:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 14:04:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:04:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:04:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=alert_only
+Feb 26 14:04:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:04:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:04:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=alert_only
+Feb 26 14:04:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:04:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:04:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:04:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=alert_only
+Feb 26 14:05:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:05:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:05:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:05:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:05:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:05:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:05:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:05:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:05:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:05:12 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:05:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:05:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=alert_only
+Feb 26 14:05:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:05:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:05:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:05:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:06:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:06:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:06:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:06:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:06:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:06:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:06:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:06:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:06:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:06:12 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:06:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:06:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=alert_only
+Feb 26 14:06:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:06:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:06:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:06:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:07:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:07:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:07:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:07:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:07:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:07:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:07:12 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:07:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:07:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:07:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:07:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:07:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:07:12 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:07:12 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:07:12 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:07:12 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=alert_only
+Feb 26 14:08:12 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:08:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:08:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:08:13 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:08:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:08:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:08:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:08:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:08:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:08:13 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:08:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:08:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=alert_only
+Feb 26 14:08:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:08:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:08:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:08:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:09:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:09:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:09:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:09:13 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:09:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:09:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:09:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:09:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:09:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:09:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:09:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:09:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:09:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 14:09:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:09:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:09:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 14:10:13 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:10:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:10:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:10:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:10:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:10:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:10:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:10:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:10:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:10:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:10:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:10:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:10:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:10:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:10:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:10:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:11:13 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:11:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:11:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=alert_only
+Feb 26 14:11:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:11:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:11:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=alert_only
+Feb 26 14:11:13 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:11:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:11:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=alert_only
+Feb 26 14:11:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:11:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:11:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=alert_only
+Feb 26 14:11:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100010 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Alert received and queued for Ollama analysis
+Feb 26 14:11:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:11:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:11:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100010 FinalAction=alert_only
+Feb 26 14:12:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:12:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:12:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 14:12:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:12:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:12:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 14:12:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:12:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:12:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=alert_only
+Feb 26 14:12:13 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:12:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:12:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=alert_only
+Feb 26 14:12:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:12:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:12:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:12:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=alert_only
+Feb 26 14:13:13 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:13:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:13:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=alert_only
+Feb 26 14:13:14 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=ruth-linux-agent MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:13:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:13:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=100001 FinalAction=alert_only
+Feb 26 14:13:14 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:13:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:13:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 14:13:14 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:13:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:13:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=alert_only
+Feb 26 14:13:14 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:13:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:13:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:13:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=alert_only
+Feb 26 14:14:14 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=ruth-linux-agent MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:14:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:14:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=100001 FinalAction=alert_only
+Feb 26 14:14:14 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:14:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:14:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 14:14:14 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:14:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:14:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 14:14:14 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 14:14:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:14:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=alert_only
+Feb 26 14:14:14 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 14:14:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Max retries exceeded with url: /a Action=alert_only Reason=No reason provided
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:14:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:14:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 14:15:14 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:15:44 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:15:46 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:15:46 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:15:46 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 14:15:46 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:16:17 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:16:20 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:16:20 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:16:20 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 14:16:20 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:16:50 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:16:50 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:16:50 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:16:50 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=alert_only
+Feb 26 14:16:50 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:17:20 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:17:20 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:17:20 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:17:20 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=alert_only
+Feb 26 14:17:20 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:17:42 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A PAM (Plaintext Authentication Module) login session was abruptly terminated, potentially compromising sensitive credentials and network security. Action=alert_only Reason=The sudden closure of a PAM login session may indicate unauthorized access or tampering with sensitive system resources, prompting a temporary pause to assess and resolve the issue.
+Feb 26 14:17:42 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:17:42 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:17:42 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=alert_only
+Feb 26 14:18:44 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:19:02 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=The Wazuh security alert is related to the completion of Ollama AI analysis on LARKSPUR AI STACK, which requires monitoring for any potential vulnerabilities or issues. Action=alert_only Reason=Isolating Ruth's account is necessary due to the high severity level (7/15) and MITRE Technique ('N/A') of this alert, indicating that LARKSPUR AI STACK requires strict monitoring.
+Feb 26 14:19:02 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:19:02 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:19:02 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=alert_only
+Feb 26 14:19:02 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:19:07 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=The LARKSPUR AI STACK — Remediation action executed by automated playbook may have compromised the security of sensitive data. Action=disable_account Reason=Due to the potential compromise of sensitive data, it is recommended that account "Ruth" be disabled to prevent any further unauthorized access or actions.
+Feb 26 14:19:07 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:19:07 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:19:07 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=disable_account
+Feb 26 14:19:07 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:19:11 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=The LARKSPUR AI STACK — Ollama AI analysis has been completed and no recommended action is required. Action=disable_account Reason=There are no identified vulnerabilities or security concerns in the provided Wazuh alert.
+Feb 26 14:19:11 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:19:11 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:19:11 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=disable_account
+Feb 26 14:19:11 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:19:17 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=LARKSPUR AI STACK — Full pipeline complete, indicating a potential vulnerability in the Wazuh-Docker-Ollama configuration. Action=disable_account Reason=To prevent potential exploitation of identified vulnerabilities, it is recommended to disable access to the Wazuh account and isolate any affected systems until further action can be taken.
+Feb 26 14:19:17 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:19:17 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:19:17 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=disable_account
+Feb 26 14:19:17 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:19:23 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=The Wazuh security alert indicates that LARKSPUR AI STACK — Remediation verification passed, with a severity level of 5/15. Action=disable_account Reason=Due to the high severity level (5) and MITRE Technique information indicating no vulnerability details are provided, it is necessary to disable the account associated with this entity to prevent potential further issues.
+Feb 26 14:19:23 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:19:23 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:19:23 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=disable_account
+Feb 26 14:20:23 ai-security-stack: AI-ALERT-RECEIVED: [MEDIUM] Rule=100011 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Ollama AI analysis complete with recommended action
+Feb 26 14:20:29 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=This Wazuh security alert requires the isolation of the LARKSPUR AI STACK — Ollama AI analysis host due to its high severity level and potential impact on the system. Action=isolate_host Reason=The high severity level (7/15) indicates that this is a critical issue requiring immediate attention, and isolating the affected host will prevent any potential damage or exploitation until further investigation can be conducted.
+Feb 26 14:20:29 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Block suspicious IP via firewall Rollback=iptables -D INPUT -s 0.0.0.0 -j DROP Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:20:29 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:20:29 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100011 FinalAction=isolate_host
+Feb 26 14:20:29 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100012 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation action executed by automated playbook
+Feb 26 14:20:34 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A remediation action was executed on LARKSPUR AI STACK by an automated playbook, which may indicate a vulnerability exploitation or misuse. Action=disable_account Reason=The execution of a remediation action suggests that the account used for this operation has elevated privileges, and disabling it is necessary to prevent potential damage.
+Feb 26 14:20:34 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:20:34 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:20:34 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100012 FinalAction=disable_account
+Feb 26 14:20:34 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100014 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Full pipeline complete: Wazuh-Docker-Ollama-Action
+Feb 26 14:20:39 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=The LARKSPUR AI STACK has completed its full pipeline, indicating a potential security risk. Action=disable_account Reason=To prevent potential exploitation or further analysis of the system that may be exposed due to this vulnerability.
+Feb 26 14:20:39 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:20:39 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:20:39 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100014 FinalAction=disable_account
+Feb 26 14:20:39 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=100013 Agent=Ruth MITRE=['N/A'] Desc=LARKSPUR AI STACK — Remediation verification passed
+Feb 26 14:20:45 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=The Wazuh security alert indicates that the LARKSPUR AI STACK remediation verification has passed, with no additional information provided about the severity level. Action=disable_account Reason=As this is a remediation verification, disabling the account may be necessary to prevent any further potential issues or unauthorized access.
+Feb 26 14:20:46 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:20:46 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:20:46 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100013 FinalAction=disable_account
+Feb 26 14:20:46 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60608 Agent=Windows11-PC MITRE=['N/A'] Desc=Summary event of the report's signatures.
+Feb 26 14:20:55 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The alert is describing a summary event related to report signatures, specifically targeting Windows 11 systems and the 'Windows Application' group. Action=disable_account Reason=Based on the description of the summary event, disabling the account associated with this alert seems to be the most appropriate action as it will prevent any potential malicious activity without potentially affecting system security.
+Feb 26 14:20:55 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:20:55 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:20:55 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60608 FinalAction=disable_account
+Feb 26 14:21:52 ai-security-stack: AI-STACK-STARTED: Larkspur AI security stack online. Monitoring Wazuh alerts.
+Feb 26 14:21:52 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=ruth-linux-agent MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:21:59 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=A potential privilege escalation vulnerability has been detected through sudo to ROOT on a Linux endpoint, indicating elevated privileges. Action=disable_account Reason=This action is taken to prevent further potential attacks and mitigate the risk of escalating privileges.
+Feb 26 14:21:59 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:21:59 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:21:59 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=100001 FinalAction=disable_account
+Feb 26 14:21:59 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:22:09 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=An unauthenticated login attempt has been detected, indicating potential unauthorized access to the system. Action=disable_account Reason=The PAM (Password Authentication Protocol) login session opened indicates a security risk and requires disabling the account associated with the agent, ruth-linux-agent, until further investigation can be conducted.
+Feb 26 14:22:09 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:22:09 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:22:09 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=disable_account
+Feb 26 14:22:09 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:22:20 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A sensitive login session was detected, indicating potential unauthorized access to the system. Action=disable_account Reason=The presence of multiple high-severity groups (pam, syslog, authentication_success) in the MITRE Technique T1078 suggests a potential brute-force or privilege escalation attempt, which warrants disabling the affected account to prevent further potential breaches.
+Feb 26 14:22:20 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:22:20 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:22:20 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=disable_account
+Feb 26 14:22:20 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:22:31 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A potential privilege escalation vulnerability via sudo to ROOT has been detected on a Linux endpoint. Action=disable_account Reason=This action is necessary to mitigate the identified risk, as disabling an account without prior authorization can be detrimental to system security.
+Feb 26 14:22:31 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:22:31 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:22:31 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=disable_account
+Feb 26 14:22:31 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:23:01 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:23:03 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:23:03 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:23:03 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 14:24:03 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=ruth-linux-agent MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:24:25 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=Potential privilege escalation via sudo to ROOT on Linux endpoint detected. Action=alert_only Reason=The LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint indicates a potential vulnerability that could be exploited by an attacker to gain elevated privileges, compromising the security of the Linux endpoint. Disabling the Ruth-linux-agent account should help mitigate this risk until further investigation and remediation can be performed.
+Feb 26 14:24:25 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:24:25 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:24:25 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=100001 FinalAction=alert_only
+Feb 26 14:24:25 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 14:24:34 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=An open login session for the system has been detected. Action=disable_account Reason=The presence of a PAM (Password Authentication Mechanism) login session indicates unauthorized access, and disabling the account is necessary to prevent further potential security risks.
+Feb 26 14:24:34 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:24:34 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:24:34 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=disable_account
+Feb 26 14:24:34 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 14:24:42 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A potential privilege escalation vulnerability has been detected via sudo to ROOT on a Linux endpoint. Action=disable_account Reason=This action is necessary to prevent further potential damage or exploitation of the identified vulnerability.
+Feb 26 14:24:42 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:24:42 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:24:42 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=disable_account
+Feb 26 14:24:42 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:24:59 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=A critical security alert has been triggered due to a failed login attempt on the "ruth-linux-agent" system, indicating potential unauthorized access. Action=alert_only Reason=The failure of the login session suggests that an attacker may have gained access to the system despite normal authentication mechanisms, prompting immediate action to prevent further potential security breaches.
+Feb 26 14:24:59 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:24:59 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:24:59 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 14:24:59 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 14:25:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A security alert has been triggered regarding a pending login session closure on the system, with an associated MITRE technique of 'N/A' and groups affected being 'pam' and 'syslog'. Action=disable_account Reason=This action is taken to prevent potential unauthorized access to sensitive information by closing the existing login session.
+Feb 26 14:25:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:25:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:25:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=disable_account
+Feb 26 14:30:15 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 14:30:45 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:30:45 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:30:45 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:30:45 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 14:44:46 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 14:45:17 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:45:18 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:45:18 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:45:18 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 14:59:18 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 14:59:48 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 14:59:52 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 14:59:52 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 14:59:52 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 14:59:52 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60608 Agent=Windows11-PC MITRE=['N/A'] Desc=Summary event of the report's signatures.
+Feb 26 15:00:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The report contains a summary event indicating a potential signature match between the "Windows 11 PC" agent and known malicious signatures. Action=disable_account Reason=Based on the severity level of 4/15, disabling the account associated with this IP address to prevent any potential further actions or to mitigate the risk until more information can be gathered.
+Feb 26 15:00:15 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:00:15 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:00:15 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60608 FinalAction=disable_account
+Feb 26 15:12:16 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 15:12:46 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 15:12:46 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:12:46 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:12:46 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 15:14:46 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 15:14:54 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=An unpatched Application Compatibility Database (ACD) has been launched, potentially allowing unauthorized access to Windows 11 systems. Action=disable_account Reason=The launch of an unpatched ACD on a system running Windows 11, which is widely considered to be at high risk due to the vulnerability exposed by T1546.011, requires immediate action to prevent potential data breaches and unauthorized access.
+Feb 26 15:14:54 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:14:54 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:14:54 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=disable_account
+Feb 26 15:14:54 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 15:15:00 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The Wazuh security alert is a confirmation that the software protection service was successfully executed. Action=disable_account Reason=Due to the high severity level of 3/15, which indicates a critical incident, this action ensures the host remains in a controlled state until further investigation and mitigation efforts can be conducted.
+Feb 26 15:15:00 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:15:00 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:15:00 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=disable_account
+Feb 26 15:45:00 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 15:45:31 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 15:45:34 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:45:34 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:45:34 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 15:47:35 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 15:47:47 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=An unapproved login attempt has been detected for the pam agent on a Linux system. Action=disable_account Reason=The T1078 vulnerability in the pam agent allows unauthorized access to the system, making this action necessary to prevent potential security breaches.
+Feb 26 15:47:48 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:47:48 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:47:48 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=disable_account
+Feb 26 15:47:48 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 15:47:52 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A PAM (Plaintext Authentication Module) login session has been detected. Action=disable_account Reason=The presence of a T1170 vulnerability exploit technique, indicating a potential password cracking incident, warrants immediate action to prevent further compromise.
+Feb 26 15:47:52 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:47:52 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:47:52 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=disable_account
+Feb 26 15:47:52 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 15:47:59 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A security alert has been triggered regarding a login session closure on the system, potentially allowing unauthorized access if not addressed promptly. Action=disable_account Reason=The logout session may still be active and provide an entry point for malicious activity, making it essential to shut down any associated user sessions before taking further action.
+Feb 26 15:47:59 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:47:59 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:47:59 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=disable_account
+Feb 26 15:47:59 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 15:48:08 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A potential privilege escalation vulnerability has been detected on Linux endpoint SIM 1, allowing sudo to ROOT. Action=disable_account Reason=This action is necessary to prevent potential unauthorized access and ensure the security of sensitive systems. Disabling the account will prevent further exploitation of the vulnerability until a resolution can be implemented.
+Feb 26 15:48:08 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:48:08 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:48:08 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=disable_account
+Feb 26 15:48:08 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 15:48:25 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=The Wazuh security alert indicates that a login session has been closed, suggesting potential unauthorized access or privilege escalation. Action=disable_account Reason=To prevent further potential compromise, disabling the account associated with this PAM (Password Authentication Mechanism) will help limit the attack surface and prevent any malicious activity.
+Feb 26 15:48:25 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:48:25 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:48:25 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=disable_account
+Feb 26 15:57:25 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 15:57:56 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 15:57:58 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:57:58 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:57:58 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 15:57:58 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 15:58:10 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=A potential security vulnerability has been identified with the PAM (Plaintext Authentication Module) login session, suggesting that an attacker may have gained unauthorized access to the system. Action=disable_account Reason=The PAM vulnerability is a high-severity attack (Severity Level 3/15), and disabling the account associated with this agent would prevent any further potential attacks until a fix can be implemented.
+Feb 26 15:58:10 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:58:10 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:58:10 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=disable_account
+Feb 26 15:58:10 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 15:58:34 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=The PAM (Plaintext Authentication Module) login session has been closed due to an unknown security incident, potentially affecting access to sensitive systems. Action=disable_account Reason=Due to the high severity level and lack of detailed information on the MITRE Technique or affected groups, it is best to temporarily disable the account associated with Ruth until further investigation can be conducted.
+Feb 26 15:58:37 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:58:37 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:58:37 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=disable_account
+Feb 26 15:58:37 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=100002 Agent=Ruth MITRE=['T1003.008'] Desc=LARKSPUR BREACH SIM 2 — T1003.008: Credential access attempt — /etc/shadow read via sudo
+Feb 26 15:58:48 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=An attempted credential access attempt was detected on the LARKSPUR SIM 2 via sudo, suggesting a potential insider threat. Action=disable_account Reason=The detection of an authentication attempt viasudo indicates that the security system may have been compromised by an authorized user attempting to access sensitive information. Disabling the account ensures that no further malicious activity can be performed until further investigation and remediation are completed.
+Feb 26 15:58:48 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:58:48 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:58:48 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100002 FinalAction=disable_account
+Feb 26 15:58:48 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 15:58:55 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=A login session was detected on the system, indicating potential unauthorized access. Action=disable_account Reason=The presence of a PAM (Plaintext Authentication Module) login session suggests that an unverified user account may have been accessed, potentially allowing for lateral movement or privilege escalation within the network. Disabling the account will prevent any further malicious activity until the security team can review and address the potential incident.
+Feb 26 15:58:55 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 15:58:55 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 15:58:55 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=disable_account
+Feb 26 15:59:55 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 16:00:01 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=An unauthentic password attempt is detected on multiple systems, indicating potential unauthorized access or privilege escalation. Action=disable_account Reason=The detection of an unauthentic password attempt indicates that the current user's account may be compromised, and disabling the account will help to ensure the security of the affected systems.
+Feb 26 16:00:01 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 16:00:01 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 16:00:01 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=disable_account
+Feb 26 16:02:01 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 16:02:27 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The software protection service has been successfully scheduled. Action=disable_account Reason=The alert indicates the software protection service was successfully scheduled, which does not require any further action or intervention.
+Feb 26 16:02:27 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 16:02:27 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 16:02:27 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=disable_account
+Feb 26 18:47:43 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 18:48:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 18:48:15 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 18:48:15 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 18:48:15 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=alert_only
+Feb 26 18:48:15 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 18:48:46 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 18:48:46 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 18:48:46 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 18:48:46 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=alert_only
+Feb 26 18:48:46 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 18:49:17 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 18:49:17 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 18:49:17 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 18:49:17 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=alert_only
+Feb 26 18:49:17 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 18:49:47 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 18:49:47 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 18:49:47 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 18:49:47 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=alert_only
+Feb 26 18:49:47 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60608 Agent=Windows11-PC MITRE=['N/A'] Desc=Summary event of the report's signatures.
+Feb 26 18:50:18 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 18:50:21 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 18:50:21 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 18:50:21 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60608 FinalAction=alert_only
+Feb 26 18:52:21 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 18:52:51 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 18:52:52 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 18:52:52 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 18:52:52 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=alert_only
+Feb 26 19:03:53 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 19:04:23 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:04:24 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:04:24 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:04:24 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 19:04:24 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=ruth-linux-agent MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 19:04:54 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:04:54 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:04:54 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:04:54 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=100001 FinalAction=alert_only
+Feb 26 19:04:54 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=Ruth MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 19:05:18 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=An unauthorized login attempt was detected, indicating a potential security incident. Action=disable_account Reason=The high severity level (3/15) and specific "PAM: Login session opened" description suggest that this is a critical incident requiring immediate attention to prevent further unauthorized access.
+Feb 26 19:05:18 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Lock compromised user account Rollback=usermod -U root Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:05:18 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:05:18 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5501 FinalAction=disable_account
+Feb 26 19:05:18 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=100001 Agent=Ruth MITRE=['T1548.003'] Desc=LARKSPUR BREACH SIM 1 — T1548.003: Privilege escalation via sudo to ROOT detected on Linux endpoint
+Feb 26 19:05:25 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=An unpatched sudo configuration has been discovered on a Linux endpoint, allowing for privilege escalation to the root user. Action=alert_only Reason=To prevent potential malicious activity and ensure the security of the organization's systems by preventing further exploitation of the vulnerability.
+Feb 26 19:05:25 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:05:25 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:05:25 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100001 FinalAction=alert_only
+Feb 26 19:12:26 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=100002 Agent=Ruth MITRE=['T1003.008'] Desc=LARKSPUR BREACH SIM 2 — T1003.008: Credential access attempt — /etc/shadow read via sudo
+Feb 26 19:12:57 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:12:58 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:12:58 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:12:58 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=100002 FinalAction=alert_only
+Feb 26 19:12:58 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5501 Agent=ruth-linux-agent MITRE=['T1078'] Desc=PAM: Login session opened.
+Feb 26 19:13:28 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:13:30 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:13:30 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:13:30 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5501 FinalAction=alert_only
+Feb 26 19:13:30 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=100002 Agent=ruth-linux-agent MITRE=['T1003.008'] Desc=LARKSPUR BREACH SIM 2 — T1003.008: Credential access attempt — /etc/shadow read via sudo
+Feb 26 19:14:03 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:14:05 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:14:05 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:14:05 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=100002 FinalAction=alert_only
+Feb 26 19:14:05 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 26 19:14:36 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:14:36 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:14:36 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:14:36 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 26 19:14:36 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 19:15:06 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:15:06 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:15:06 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:15:06 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 19:22:06 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 19:22:37 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:22:37 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:22:37 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:22:37 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 19:52:38 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 19:53:11 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:53:11 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:53:11 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:53:11 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 19:53:11 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 19:53:43 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 19:53:47 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 19:53:47 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 19:53:47 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=alert_only
+Feb 26 19:59:48 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60608 Agent=Windows11-PC MITRE=['N/A'] Desc=Summary event of the report's signatures.
+Feb 26 20:00:18 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 20:00:19 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:00:19 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:00:19 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60608 FinalAction=alert_only
+Feb 26 20:22:19 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 20:22:50 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 20:22:54 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:22:54 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:22:54 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 20:25:54 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60132 Agent=Windows11-PC MITRE=['N/A'] Desc=System time changed
+Feb 26 20:26:10 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The system time has changed unexpectedly, requiring immediate attention to prevent potential security issues. Action=alert_only Reason=No reason provided
+Feb 26 20:26:10 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:26:10 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:26:10 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60132 FinalAction=alert_only
+Feb 26 20:26:10 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60132 Agent=Windows11-PC MITRE=['N/A'] Desc=System time changed
+Feb 26 20:26:18 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The system time has changed to a different date, which may indicate an attempt to manipulate the local clock. Action=disable_account Reason=This action is taken to ensure the security of the system and prevent any potential unauthorized tampering with the local clock. Disabling the account will also prevent any malicious activity that might be associated with it.
+Feb 26 20:26:18 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:26:18 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:26:18 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60132 FinalAction=disable_account
+Feb 26 20:27:18 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60608 Agent=Windows11-PC MITRE=['N/A'] Desc=Summary event of the report's signatures.
+Feb 26 20:27:29 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The alert is a summary event reporting on suspicious signature activity involving the Windows 11 operating system. Action=disable_account Reason=This action is taken to prevent potential malicious behavior by disabling the entire Windows 11 account, which may contain sensitive data or be used for further exploitation.
+Feb 26 20:27:29 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:27:29 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:27:29 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60608 FinalAction=disable_account
+Feb 26 20:27:29 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=19013 Agent=Windows11-PC MITRE=['N/A'] Desc=CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enforce password history' is set to '24 or more password(s)'.: Status changed from failed to 'not applicable'
+Feb 26 20:27:38 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The security alert is related to the Microsoft Windows 11 Enterprise Benchmark v3.0.0 configuration, specifically regarding password history enforcement. Action=disable_account Reason=This action is taken as the current status of the benchmark is 'not applicable', indicating that the configuration change has resolved the issue without impacting the overall security posture of the environment.
+Feb 26 20:27:38 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:27:38 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:27:38 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=19013 FinalAction=disable_account
+Feb 26 20:27:38 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=92021 Agent=Windows11-PC MITRE=['T1070.004'] Desc=Powershell was used to delete files or directories
+Feb 26 20:27:47 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=PowerShell was used to delete files or directories, indicating a potential threat to system integrity. Action=disable_account Reason=The use of PowerShell by unknown entities to perform administrative tasks on a Windows 11 PC raises concerns about the potential for malicious activity, and disabling the account will prevent any further unauthorized access or actions.
+Feb 26 20:27:47 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:27:47 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:27:47 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92021 FinalAction=disable_account
+Feb 26 20:27:47 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60778 Agent=Windows11-PC MITRE=['T1489'] Desc=The shell stopped unexpectedly.
+Feb 26 20:28:16 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The system experienced an unexpected halt of the shell, indicating potential remote code execution (RCE) or privilege escalation. Action=disable_account Reason=The presence of the 'T1489' technique in the alert suggests that this was likely a malicious activity attempting to exploit vulnerabilities on the Windows 11 PC. Disabling the account associated with the affected device is the most appropriate action as it prevents any further potential harm or unauthorized access.
+Feb 26 20:28:19 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:28:19 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:28:19 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60778 FinalAction=disable_account
+Feb 26 20:28:19 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=92021 Agent=Windows11-PC MITRE=['T1070.004'] Desc=Powershell was used to delete files or directories
+Feb 26 20:28:45 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=Unauthorized PowerShell execution on a vulnerable Windows system detected. Action=disable_account Reason=The alert indicates that the malicious activity involved deleting files or directories, which is a sensitive action typically reserved for authorized personnel. Disabling the account in question will prevent further unauthorized access and minimize the risk of damage to the system.
+Feb 26 20:28:50 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:28:50 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:28:50 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92021 FinalAction=disable_account
+Feb 26 20:29:52 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 20:30:09 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=A Windows system error event has been detected, potentially indicating a security issue. Action=disable_account Reason=This action is necessary to prevent potential privilege escalation or further investigation by allowing the account to be disabled and removing any associated privileges.
+Feb 26 20:30:10 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:30:10 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:30:10 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=disable_account
+Feb 26 20:30:10 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=92021 Agent=Windows11-PC MITRE=['T1070.004'] Desc=Powershell was used to delete files or directories
+Feb 26 20:30:17 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=PowerShell was used to delete files or directories on a Windows 11 PC. Action=disable_account Reason=The use of PowerShell to delete files or directories is a potential security threat, as it allows an attacker to execute arbitrary commands on the system.
+Feb 26 20:30:17 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:30:17 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:30:17 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92021 FinalAction=disable_account
+Feb 26 20:30:17 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 20:30:25 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=This alert is a generic Windows system error event, indicating a potential security issue that requires investigation and potentially intervention. Action=disable_account Reason=The alert's general nature and lack of specific information about the error event suggest that disabling the account may be the most effective initial response to prevent further escalation or potential exploitation.
+Feb 26 20:30:25 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:30:25 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:30:25 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=disable_account
+Feb 26 20:31:25 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 20:31:44 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=A critical Windows System error event is reported with a severity level of 5/15, indicating the potential compromise of system stability. Action=disable_account Reason=This action is taken due to the high severity level (5/15) and the presence of the "Windows11-PC" agent, suggesting that the issue may be related to Windows-specific configuration or a malicious process.
+Feb 26 20:31:45 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:31:45 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:31:45 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=disable_account
+Feb 26 20:31:45 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=61102 Agent=Windows11-PC MITRE=['N/A'] Desc=Windows System error event
+Feb 26 20:31:52 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=A critical system error event occurred on the Windows 11 PC, requiring immediate attention. Action=disable_account Reason=This action is necessary to prevent potential data loss and ensure the security of the affected system, as there are no specific threat details provided in the alert.
+Feb 26 20:31:52 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:31:52 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:31:52 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=61102 FinalAction=disable_account
+Feb 26 20:31:52 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=594 Agent=Windows11-PC MITRE=['T1565.001', 'T1112'] Desc=Registry Key Integrity Checksum Changed
+Feb 26 20:32:05 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=Registry Key Integrity Checksum has been changed on the detected Windows 11 PC. Action=disable_account Reason=The Registry Key Integrity Checksum change suggests a potential compromise, warranting account disablement to prevent further potential attacks or data exfiltration.
+Feb 26 20:32:05 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:32:05 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:32:05 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=594 FinalAction=disable_account
+Feb 26 20:32:05 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=594 Agent=Windows11-PC MITRE=['T1565.001', 'T1112'] Desc=Registry Key Integrity Checksum Changed
+Feb 26 20:32:13 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=Registry Key Integrity Checksum has been modified, potentially compromising system security. Action=disable_account Reason=The Registry Key Integrity Checksum change is a high-risk incident that requires the suspension of the Windows 11 PC account to prevent potential malicious activity.
+Feb 26 20:32:13 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:32:13 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:32:13 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=594 FinalAction=disable_account
+Feb 26 20:32:13 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=92021 Agent=Windows11-PC MITRE=['T1070.004'] Desc=Powershell was used to delete files or directories
+Feb 26 20:32:30 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The alert indicates that Powershell was used to delete files or directories on a Windows 11 PC, which is a potential indicator of malicious activity. Action=disable_account Reason=The use of PowerShell to delete files or directories suggests that the attacker may have attempted to escalate privileges or create backdoor access to the system, prompting the need to disable the user account in question.
+Feb 26 20:32:30 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:32:30 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:32:30 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92021 FinalAction=disable_account
+Feb 26 20:33:30 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=752 Agent=Windows11-PC MITRE=['T1112'] Desc=Registry Value Entry Added to the System
+Feb 26 20:33:50 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=A malicious registry entry has been detected, which may be indicative of a Windows 11 PC being compromised or infected with malware. Action=disable_account Reason=The detected threat is likely to be related to the T1112 technique, which involves using an attacker's credentials to gain administrative access to the system. Disabling the account associated with this computer will prevent any further malicious activity and protect against potential lateral movement by the compromised user.
+Feb 26 20:33:50 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:33:50 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:33:50 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=752 FinalAction=disable_account
+Feb 26 20:33:50 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=594 Agent=Windows11-PC MITRE=['T1565.001', 'T1112'] Desc=Registry Key Integrity Checksum Changed
+Feb 26 20:34:02 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=Registry Key Integrity Checksum has changed, indicating potential unauthorized access or modification of system settings. Action=disable_account Reason=The registry key integrity checksum change suggests that an attacker may have attempted to modify the system registry, potentially allowing for unauthorized access or system compromise. Disabling the account in question prevents further attempts to exploit or modify the system's registry.
+Feb 26 20:34:02 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:34:02 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:34:02 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=594 FinalAction=disable_account
+Feb 26 20:34:02 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=19013 Agent=Windows11-PC MITRE=['N/A'] Desc=CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Configure 'Accounts: Rename administrator account'.: Status changed from failed to 'not applicable'
+Feb 26 20:34:14 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0 alert requires disabling the account as it is no longer applicable due to the change in status from failed to not applicable. Action=disable_account Reason=The alert's description and severity level indicate that the configuration task has been resolved, making it an opportune moment to disable the affected account instead of isolating or ignoring it.
+Feb 26 20:34:14 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:34:14 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:34:14 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=19013 FinalAction=disable_account
+Feb 26 20:34:14 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=92031 Agent=Windows11-PC MITRE=['T1087'] Desc=Discovery activity executed
+Feb 26 20:34:23 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=Unauthorized discovery activity detected on the Windows11-PC machine. Action=disable_account Reason=The alert is indicating a potential security risk, as it suggests that unauthorized activities were discovered. Disabling the account will help to prevent any further potential damage or compromise.
+Feb 26 20:34:23 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:34:23 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:34:23 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92031 FinalAction=disable_account
+Feb 26 20:34:23 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 20:34:29 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The software protection service was successfully executed, indicating that the system is protected against known exploits. Action=disable_account Reason=To prevent further exploitation attempts and maintain system integrity.
+Feb 26 20:34:30 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:34:30 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:34:30 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=disable_account
+Feb 26 20:35:30 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=750 Agent=Windows11-PC MITRE=['T1565.001', 'T1112'] Desc=Registry Value Integrity Checksum Changed
+Feb 26 20:35:42 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=Registry values have been modified, requiring a security audit and potential additional measures to ensure the integrity of local systems. Action=disable_account Reason=This action is necessary to prevent any further modifications to system registry values, which could compromise system stability and security.
+Feb 26 20:35:42 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:35:42 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:35:42 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=750 FinalAction=disable_account
+Feb 26 20:35:42 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=594 Agent=Windows11-PC MITRE=['T1565.001', 'T1112'] Desc=Registry Key Integrity Checksum Changed
+Feb 26 20:35:57 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The Registry Key Integrity Checksum has changed, indicating a potential security vulnerability. Action=disable_account Reason=This is a high-priority alert that requires immediate action to prevent potential data loss and compromise. Disabling the account is necessary to mitigate the risk of exploiting the identified vulnerability.
+Feb 26 20:35:57 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:35:57 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:35:57 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=594 FinalAction=disable_account
+Feb 26 20:35:57 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=594 Agent=Windows11-PC MITRE=['T1565.001', 'T1112'] Desc=Registry Key Integrity Checksum Changed
+Feb 26 20:36:06 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The registry key integrity checksum has changed, indicating potential malicious activity. Action=alert_only Reason=This action is taken to prevent further potential damage and ensure the system remains secure by disabling the account associated with the compromised registry key.
+Feb 26 20:36:06 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:36:06 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:36:06 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=594 FinalAction=alert_only
+Feb 26 20:36:06 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=19013 Agent=Windows11-PC MITRE=['N/A'] Desc=CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Configure 'Interactive logon: Message title for users attempting to log on'.: Status changed from failed to 'not applicable'
+Feb 26 20:36:17 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The alert is related to a security vulnerability in the CIS Microsoft Windows 11 Enterprise Benchmark, which was previously marked as 'not applicable', indicating it did not trigger the login prompt on user logon attempts. Action=disable_account Reason=The CIS benchmark is no longer required for the system due to its outdated status, and disabling it will prevent any potential malicious activity.
+Feb 26 20:36:17 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:36:17 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:36:17 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=19013 FinalAction=disable_account
+Feb 26 20:36:17 ai-security-stack: AI-ALERT-RECEIVED: [HIGH] Rule=19005 Agent=Windows11-PC MITRE=['N/A'] Desc=SCA summary: CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Score less than 30% (26)
+Feb 26 20:36:27 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=This Wazuh security alert is related to a vulnerability in the Microsoft Windows 11 Enterprise Benchmark, which has resulted in a score of less than 30% on the CIS (Common Sense Institute) benchmark. Action=disable_account Reason=The severity level of this vulnerability exceeds the recommended threshold for disabling an account, suggesting that it poses a significant security risk and warrants further investigation or remediation before allowing access to the affected host.
+Feb 26 20:36:27 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:36:27 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:36:27 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=19005 FinalAction=disable_account
+Feb 26 20:37:27 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 20:37:48 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The software protection service was successfully scheduled, indicating a low to moderate threat level. Action=disable_account Reason=The alert does not indicate any specific security vulnerabilities or potential threats that would require immediate action on the Windows 11 PC.
+Feb 26 20:37:52 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:37:52 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:37:52 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=disable_account
+Feb 26 20:51:55 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 20:52:25 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 20:52:25 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:52:25 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:52:25 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 20:53:25 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 20:53:31 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=A Windows 11 PC has been detected with the Application Compatibility Database (ACD) launched. Action=disable_account Reason=The launch of the Application Compatibility Database is a potential security vulnerability that may allow for arbitrary code execution on a Windows 11 PC, compromising its security and potentially enabling malicious activities.
+Feb 26 20:53:31 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 20:53:31 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 20:53:31 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=disable_account
+Feb 26 21:22:32 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 21:23:02 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 21:23:06 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 21:23:06 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 21:23:06 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 21:26:06 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 21:26:17 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The Wazuh security alert indicates that a software protection service was executed successfully on an agent running Windows 11. Action=disable_account Reason=Due to the description of the alert, no further action is required as the alert does not contain any sensitive information or indicate a potential threat.
+Feb 26 21:26:17 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 21:26:17 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 21:26:17 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=disable_account
+Feb 26 21:32:17 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 21:32:43 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The Wazuh security alert indicates that the software protection service has been successfully scheduled, indicating a potential vulnerability but no immediate action is required. Action=disable_account Reason=As this is not an immediate threat and scheduling a service does not pose an active risk to the system at this time, disabling the account is the most appropriate action.
+Feb 26 21:32:43 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 21:32:43 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 21:32:43 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=disable_account
+Feb 26 21:45:47 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 21:46:21 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 21:46:22 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 21:46:22 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 21:46:22 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 21:52:23 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 21:52:53 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 21:52:54 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 21:52:54 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 21:52:54 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 21:52:54 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 21:53:24 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 21:53:29 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 21:53:29 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 21:53:29 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=alert_only
+Feb 26 22:30:50 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 22:31:20 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 22:31:21 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 22:31:21 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 22:31:21 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 22:32:22 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 22:32:53 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 22:32:54 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 22:32:54 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 22:32:54 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 22:52:54 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 22:53:24 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 22:53:25 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 22:53:25 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 22:53:25 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=alert_only
+Feb 26 23:00:25 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 23:00:56 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 23:00:56 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:00:56 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:00:56 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 23:08:57 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 23:09:27 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 23:09:27 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:09:27 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:09:27 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 23:12:27 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=92052 Agent=Windows11-PC MITRE=['T1059.003'] Desc=Windows command prompt started by an abnormal process
+Feb 26 23:12:58 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 23:12:58 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:12:58 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:12:58 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92052 FinalAction=alert_only
+Feb 26 23:14:59 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60608 Agent=Windows11-PC MITRE=['N/A'] Desc=Summary event of the report's signatures.
+Feb 26 23:15:29 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 23:15:30 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:15:30 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:15:30 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60608 FinalAction=alert_only
+Feb 26 23:17:32 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 23:18:01 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=The software protection service was successfully installed and scheduled on the specified Windows 11 PC. Action=disable_account Reason=This is a Wazuh security alert, which typically requires manual attention to resolve. Disabling the account is necessary to avoid potential exploitation of the newly protected software.
+Feb 26 23:18:01 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Lock compromised user account Rollback=usermod -U unknown Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:18:01 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:18:01 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=disable_account
+Feb 26 23:29:01 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 23:29:32 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 23:29:32 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:29:32 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:29:32 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 23:30:37 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 26 23:31:07 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 23:31:07 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:31:07 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:31:07 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 26 23:53:10 ai-security-stack: AI-ALERT-RECEIVED: [CRITICAL] Rule=92058 Agent=Windows11-PC MITRE=['T1546.011'] Desc=Application Compatibility Database launched
+Feb 26 23:53:41 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 26 23:53:41 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 26 23:53:41 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 26 23:53:41 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92058 FinalAction=alert_only
+Feb 26 23:59:42 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=92307 Agent=Windows11-PC MITRE=['T1543.003'] Desc=Evidence of new service creation found in registry under HKLM\\System\\CurrentControlSet\\Services\\MicrosoftEdgeElevationService\\ImagePath binary is: \"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\145.0.3800.82\\elevation_service.exe\"
+Feb 27 00:00:15 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 27 00:00:18 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 27 00:00:18 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 27 00:00:18 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=92307 FinalAction=alert_only
+Feb 27 00:01:18 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=60642 Agent=Windows11-PC MITRE=['N/A'] Desc=Software protection service scheduled successfully.
+Feb 27 00:01:49 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Windows11-PC Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 27 00:01:52 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Windows11-PC Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 27 00:01:52 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Windows11-PC FollowUp=No-further-events-from-source Verification=PASSED
+Feb 27 00:01:52 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Windows11-PC RuleID=60642 FinalAction=alert_only
+Feb 27 00:14:52 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=ruth-linux-agent MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 27 00:15:22 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=ruth-linux-agent Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 27 00:15:23 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=ruth-linux-agent Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 27 00:15:23 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=ruth-linux-agent FollowUp=No-further-events-from-source Verification=PASSED
+Feb 27 00:15:23 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=ruth-linux-agent RuleID=5502 FinalAction=alert_only
+Feb 27 00:15:23 ai-security-stack: AI-ALERT-RECEIVED: [LOW] Rule=5502 Agent=Ruth MITRE=['N/A'] Desc=PAM: Login session closed.
+Feb 27 00:15:55 ai-security-stack: AI-ANALYSIS-COMPLETE: Agent=Ruth Summary=AI unavailable: HTTPConnectionPool(host='172.17.0.1', port=11434): Read timed out. (read timeout=30) Action=alert_only Reason=No reason provided
+Feb 27 00:15:56 ai-security-stack: AI-REMEDIATION-EXECUTED: Agent=Ruth Action=Log alert for human review Rollback=N/A Status=SIMULATED-AWAITING-APPROVAL
+Feb 27 00:15:56 ai-security-stack: AI-REMEDIATION-VERIFIED: Agent=Ruth FollowUp=No-further-events-from-source Verification=PASSED
+Feb 27 00:15:56 ai-security-stack: AI-FLOW-COMPLETE: Wazuh>Docker>Ollama>Action Agent=Ruth RuleID=5502 FinalAction=alert_only

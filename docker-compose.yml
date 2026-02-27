@@ -1,0 +1,30 @@
+services:
+  alert-processor:
+    build: ./alert-processor
+    container_name: alert-processor
+    volumes:
+      - /var/ossec/logs/alerts:/alerts:ro
+      - ./audit-log:/audit-log
+    environment:
+      - WAZUH_ALERT_FILE=/alerts/alerts.json
+      - AUDIT_LOG=/audit-log/actions.log
+      - OLLAMA_URL=http://172.17.0.1:11434
+      - REMEDIATION_URL=http://remediation-engine:5000
+    networks:
+      - security-net
+    depends_on:
+      - remediation-engine
+    restart: unless-stopped
+
+  remediation-engine:
+    build: ./remediation-engine
+    container_name: remediation-engine
+    volumes:
+      - ./audit-log:/audit-log
+    networks:
+      - security-net
+    restart: unless-stopped
+
+networks:
+  security-net:
+    driver: bridge
